@@ -24,7 +24,7 @@ type Home struct {
 }
 
 func (q *Home) String() string {
-	return fmt.Sprintf("Title: %s, Price: %s, Range: %s, Link: %s\n", q.Title, q.Price, q.Range, q.Link)
+	return fmt.Sprintf("Title: %s, Price: %s, Range: %s, Link: %s", q.Title, q.Price, q.Range, q.Link)
 }
 
 func usage() {
